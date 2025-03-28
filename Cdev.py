@@ -17,3 +17,4 @@ def file_management(): print("1. Compress File") print("2. Encrypt File") print(
 def main(): while True: banner() choice = input("Select an option: ") if choice == '1': network_scan() elif choice == '2': whois_lookup() elif choice == '3': dns_lookup() elif choice == '4': ip_geolocation() elif choice == '5': system_monitor() elif choice == '6': file_management() elif choice == '7': print("Exiting...") sys.exit() else: print("Invalid choice.")
 
 if name == "main": main()
+
