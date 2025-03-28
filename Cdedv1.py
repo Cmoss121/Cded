@@ -1,4 +1,15 @@
+import time
+import sys
 from colorama import Fore, Style, init
+
+def loading_dots():
+    print("Loading", end="")
+    for _ in range(5):
+        time.sleep(0.5)  # Delay
+        print(".", end="", flush=True)
+    print("\nDone!")
+
+loading_dots()
 
 print(Fore.RED + r"""
 
