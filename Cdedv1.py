@@ -1,6 +1,6 @@
 from colorama import Fore, Style, init
 
-print(Fore.RED + """
+print(Fore.RED + r"""
 
 -----------------------
 
