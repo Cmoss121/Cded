@@ -1,4 +1,6 @@
-print("""
+from colorama import Fore, Style, init
+
+print(Fore.RED + """
 
  _____     _          _ 
 /  __ \   | |        | |
@@ -7,6 +9,6 @@ print("""
 | \__/\ (_| |  __/ (_| |
  \____/\__,_|\___|\__,_|
  
-""")
+"""
 
 print("BOMBACLAT")
